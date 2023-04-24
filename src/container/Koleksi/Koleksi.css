@@ -1,0 +1,37 @@
+.koleksi{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.gambar-koleksi{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.gambar-buku img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.konten-koleksi{
+    flex: 1;
+}
+
+.konten-koleksi div.judul-koleksi{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.konten-koleksi p.isi-koleksi{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
